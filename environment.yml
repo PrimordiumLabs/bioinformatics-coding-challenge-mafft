@@ -1,0 +1,15 @@
+name: bfx-interview
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.8
+  - biopython>=1.81
+  - numpy>=1.24.0
+  - pyyaml>=6.0
+  - mafft>=7.520
+  - medaka=1.8.0
+  - pip:
+    - matplotlib
+    - seaborn
