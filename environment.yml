@@ -10,6 +10,11 @@ dependencies:
   - pyyaml>=6.0
   - mafft>=7.520
   - flye
+  - tqdm
+  # TODO: Not sure if we want these in there to lead on the candidate
+  - cd-hit
+  - sourmash
+  - seqkit
   - pip:
     - matplotlib
     - seaborn
