@@ -1,0 +1,60 @@
+[2025-04-16 21:55:16] root: INFO: Running Flye polisher
+[2025-04-16 21:55:16] root: DEBUG: Cmd: /Users/rishubhanda/.local/share/mamba/envs/bfx-interview/bin/flye --polish-target data/test1/test1_output/intermediate/4_consensus_test1_reads.fasta --nano-raw data/test1/test1_output/intermediate/1_downsampled_test1_reads.fastq --iterations 1 --out-dir data/test1/test1_output/intermediate/5_flye_polish -t 4
+[2025-04-16 21:55:16] root: INFO: Polishing genome (1/1)
+[2025-04-16 21:55:16] root: INFO: Running minimap2
+[2025-04-16 21:55:16] root: INFO: Separating alignment into bubbles
+[2025-04-16 21:55:16] root: DEBUG: Generated 37 bubbles
+[2025-04-16 21:55:16] root: DEBUG: Split 0 long bubbles
+[2025-04-16 21:55:16] root: DEBUG: Skipped 0 empty bubbles
+[2025-04-16 21:55:16] root: DEBUG: Skipped 0 bubbles with long branches
+[2025-04-16 21:55:16] root: INFO: Alignment error rate: 0.013905
+[2025-04-16 21:55:16] root: INFO: Correcting bubbles
+[2025-04-16 21:55:16] root: INFO: Done!
+[2025-04-16 21:58:34] root: INFO: Running Flye polisher
+[2025-04-16 21:58:34] root: DEBUG: Cmd: /Users/rishubhanda/.local/share/mamba/envs/bfx-interview/bin/flye --polish-target data/test1/test1_output/intermediate/4_consensus_test1_reads.fasta --nano-raw data/test1/test1_output/intermediate/1_downsampled_test1_reads.fastq --iterations 1 --out-dir data/test1/test1_output/intermediate/5_flye_polish -t 4
+[2025-04-16 21:58:34] root: INFO: Polishing genome (1/1)
+[2025-04-16 21:58:34] root: INFO: Running minimap2
+[2025-04-16 21:58:34] root: INFO: Separating alignment into bubbles
+[2025-04-16 21:58:34] root: DEBUG: Generated 37 bubbles
+[2025-04-16 21:58:34] root: DEBUG: Split 0 long bubbles
+[2025-04-16 21:58:34] root: DEBUG: Skipped 0 empty bubbles
+[2025-04-16 21:58:34] root: DEBUG: Skipped 0 bubbles with long branches
+[2025-04-16 21:58:34] root: INFO: Alignment error rate: 0.013905
+[2025-04-16 21:58:34] root: INFO: Correcting bubbles
+[2025-04-16 21:58:34] root: INFO: Done!
+[2025-04-16 21:58:50] root: INFO: Running Flye polisher
+[2025-04-16 21:58:50] root: DEBUG: Cmd: /Users/rishubhanda/.local/share/mamba/envs/bfx-interview/bin/flye --polish-target data/test1/test1_output/intermediate/4_consensus_test1_reads.fasta --nano-raw data/test1/test1_output/intermediate/1_downsampled_test1_reads.fastq --iterations 1 --out-dir data/test1/test1_output/intermediate/5_flye_polish -t 4
+[2025-04-16 21:58:50] root: INFO: Polishing genome (1/1)
+[2025-04-16 21:58:50] root: INFO: Running minimap2
+[2025-04-16 21:58:50] root: INFO: Separating alignment into bubbles
+[2025-04-16 21:58:50] root: DEBUG: Generated 37 bubbles
+[2025-04-16 21:58:50] root: DEBUG: Split 0 long bubbles
+[2025-04-16 21:58:50] root: DEBUG: Skipped 0 empty bubbles
+[2025-04-16 21:58:50] root: DEBUG: Skipped 0 bubbles with long branches
+[2025-04-16 21:58:50] root: INFO: Alignment error rate: 0.013905
+[2025-04-16 21:58:50] root: INFO: Correcting bubbles
+[2025-04-16 21:58:50] root: INFO: Done!
+[2025-04-16 21:59:12] root: INFO: Running Flye polisher
+[2025-04-16 21:59:12] root: DEBUG: Cmd: /Users/rishubhanda/.local/share/mamba/envs/bfx-interview/bin/flye --polish-target data/test1/test1_output/intermediate/4_consensus_test1_reads.fasta --nano-raw data/test1/test1_output/intermediate/1_downsampled_test1_reads.fastq --iterations 1 --out-dir data/test1/test1_output/intermediate/5_flye_polish -t 4
+[2025-04-16 21:59:12] root: INFO: Polishing genome (1/1)
+[2025-04-16 21:59:12] root: INFO: Running minimap2
+[2025-04-16 21:59:13] root: INFO: Separating alignment into bubbles
+[2025-04-16 21:59:13] root: DEBUG: Generated 37 bubbles
+[2025-04-16 21:59:13] root: DEBUG: Split 0 long bubbles
+[2025-04-16 21:59:13] root: DEBUG: Skipped 0 empty bubbles
+[2025-04-16 21:59:13] root: DEBUG: Skipped 0 bubbles with long branches
+[2025-04-16 21:59:13] root: INFO: Alignment error rate: 0.013905
+[2025-04-16 21:59:13] root: INFO: Correcting bubbles
+[2025-04-16 21:59:13] root: INFO: Done!
+[2025-04-16 21:59:30] root: INFO: Running Flye polisher
+[2025-04-16 21:59:30] root: DEBUG: Cmd: /Users/rishubhanda/.local/share/mamba/envs/bfx-interview/bin/flye --polish-target data/test1/test1_output/intermediate/4_consensus_test1_reads.fasta --nano-raw data/test1/test1_output/intermediate/1_downsampled_test1_reads.fastq --iterations 1 --out-dir data/test1/test1_output/intermediate/5_flye_polish -t 4
+[2025-04-16 21:59:30] root: INFO: Polishing genome (1/1)
+[2025-04-16 21:59:30] root: INFO: Running minimap2
+[2025-04-16 21:59:31] root: INFO: Separating alignment into bubbles
+[2025-04-16 21:59:31] root: DEBUG: Generated 37 bubbles
+[2025-04-16 21:59:31] root: DEBUG: Split 0 long bubbles
+[2025-04-16 21:59:31] root: DEBUG: Skipped 0 empty bubbles
+[2025-04-16 21:59:31] root: DEBUG: Skipped 0 bubbles with long branches
+[2025-04-16 21:59:31] root: INFO: Alignment error rate: 0.013905
+[2025-04-16 21:59:31] root: INFO: Correcting bubbles
+[2025-04-16 21:59:31] root: INFO: Done!

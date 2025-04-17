@@ -9,7 +9,8 @@ dependencies:
   - numpy>=1.24.0
   - pyyaml>=6.0
   - mafft>=7.520
-  - medaka=1.8.0
+  - flye
   - pip:
     - matplotlib
     - seaborn
+    - edlib

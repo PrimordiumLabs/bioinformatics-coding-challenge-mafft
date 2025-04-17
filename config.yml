@@ -1,10 +1,6 @@
-input:
-  fastq: "scratch/data/5X5B3R_3.fastq"  # Path to input FASTQ file
-  output_dir: "./output/5X5B3R_3"  # Directory to save filtered reads
-
 filtering:
-  lower_percentile: 50.0  # Lower length percentile threshold
-  upper_percentile: 95.0  # Upper length percentile threshold 
+  lower_percentile: 50.0
+  upper_percentile: 95.0
 
 medaka_polish:
   medaka_model: "r1041_e82_400bps_bacterial_methylation"
