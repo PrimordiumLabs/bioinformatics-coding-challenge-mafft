@@ -15,7 +15,7 @@ def load_config(config_path):
         return yaml.safe_load(f)
 
 
-def calculate_length_percentiles(records, lower_percentile, upper_percentile):
+def calculate_length_percentiles(records, lower_percentile=50, upper_percentile=95):
     """Calculate length thresholds based on percentiles."""
     lengths = [len(record.seq) for record in records]
     lower_threshold = np.percentile(lengths, lower_percentile)
@@ -58,14 +58,14 @@ def run_mafft(input_file, output_file):
     return output_file
 
 
-def run_flye_polish(consensus_fasta, reads_fastq, output_dir, threads=4):
+def run_flye_polish(consensus_fasta, reads_fasta, output_dir, threads=4):
     """Run Flye polish on the consensus sequence."""
     cmd = [
         "flye",
         "--polish-target",
         str(consensus_fasta),
         "--nano-raw",
-        str(reads_fastq),
+        str(reads_fasta),
         "--iterations",
         "1",
         "--out-dir",

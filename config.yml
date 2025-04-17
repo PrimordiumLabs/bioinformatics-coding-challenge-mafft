@@ -1,6 +1,0 @@
-filtering:
-  lower_percentile: 50.0
-  upper_percentile: 95.0
-
-medaka_polish:
-  medaka_model: "r1041_e82_400bps_bacterial_methylation"
