@@ -17,6 +17,7 @@ from utils import (
 )
 
 # TODO: move things to config
+# TODO: for the ends, be more permissive when making consensus
 
 
 def run_pipeline(
@@ -24,7 +25,7 @@ def run_pipeline(
     output_dir: Path,
     min_read_percentile: float = 50,
     max_read_percentile: float = 95,
-    read_cap: int = 2000,
+    read_cap: int = 500,
 ) -> Path:
     # Get paths from config
     intermediate_dir = output_dir / "intermediate"

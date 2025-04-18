@@ -82,13 +82,25 @@ def run_flye_polish(consensus_fasta, reads_fasta, output_dir, threads=4):
     return polished_consensus
 
 
+# def is_near_ends(read_len, read_idx, end_threshold=0.15):
+#     start_threshold = end_threshold * read_len
+#     end_threshold = read_len - start_threshold
+
+#     return read_idx < start_threshold or read_idx > end_threshold
+
+
 def calculate_consensus(alignment_file):
     """Calculate consensus sequence from the alignment."""
     fasta = AlignIO.read(alignment_file, "fasta")
     consensus_seq = ""
     msa_len = len(fasta[0])
     for i in range(msa_len):
-        consensus_base = Counter([read.seq[i] for read in fasta]).most_common(1)[0][0]
+        base_counts = Counter([read.seq[i] for read in fasta]).most_common()
+        consensus_base = base_counts[0][0]
+
+        # In tagmented reads, most of the reads will be missing one of the ends
+        # if consensus_base == "-" and is_near_ends(msa_len, i):
+        #     consensus_base = base_counts[1][0]
         consensus_seq += consensus_base
     seq = consensus_seq.replace("-", "").upper()
     return seq

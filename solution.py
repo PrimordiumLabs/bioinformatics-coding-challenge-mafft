@@ -28,7 +28,7 @@ from utils import (
 def filter_background_reads(records: List[SeqRecord]) -> List[SeqRecord]:
     KMER_SIZE = 15
     COMMON_KMER_CUTOFF = 500
-    MIN_OVERLAPPING_KMER_THRESHOLD = 30
+    MIN_OVERLAPPING_KMER_THRESHOLD = 50
     print(
         "Filtering background reads based on common kmers. Kmer size:",
         KMER_SIZE,
@@ -80,7 +80,7 @@ def run_pipeline(
     output_dir: Path,
     min_read_percentile: float = 50,
     max_read_percentile: float = 95,
-    read_cap: int = 2000,
+    read_cap: int = 500,
 ) -> Path:
     # Get paths from config
     intermediate_dir = output_dir / "intermediate"

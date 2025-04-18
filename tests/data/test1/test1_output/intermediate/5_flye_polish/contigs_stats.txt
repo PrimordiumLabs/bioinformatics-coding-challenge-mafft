@@ -1,2 +1,0 @@
-#seq_name	length	coverage
-consensus_test1_reads	275	1293
