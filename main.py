@@ -13,11 +13,7 @@ from utils import (
     run_mafft,
     calculate_consensus,
     run_flye_polish,
-    load_config,
 )
-
-# TODO: move things to config
-# TODO: for the ends, be more permissive when making consensus
 
 
 def run_pipeline(

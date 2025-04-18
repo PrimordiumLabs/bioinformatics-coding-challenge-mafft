@@ -11,10 +11,9 @@ dependencies:
   - mafft>=7.520
   - flye
   - tqdm
-  # TODO: Not sure if we want these in there to lead on the candidate
-  - cd-hit
-  - sourmash
   - seqkit
+  - samtools
+  - minimap2
   - pip:
     - matplotlib
     - seaborn
